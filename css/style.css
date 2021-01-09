@@ -1,0 +1,134 @@
+
+/**************HTML**************/
+
+body{
+    background-color: rgb(224,224,224);
+}
+
+header{
+    width: 100%; 
+    background-color: rgb(0,128,205);
+}
+
+#logo{
+    display:block;
+    width: 50%;
+    margin: auto;
+    padding: 2% 0;
+}
+
+.col{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255,255,255);
+    padding-top: 5px;
+}
+
+#busca{
+    width: 83%;
+    border-style: none;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+#icon{
+    padding-right: 5px;
+}
+
+.container{
+    width: 98%;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:  rgb(210,210,210);
+    min-width: 230px;
+    overflow: auto;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 2px 5px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn{
+    width: 100%;
+    text-align: left;
+    background-color:  rgb(210,210,210);
+    
+}
+  
+.show {display: block;}
+
+
+/**************JS**************/
+
+#tituloPrevisao{
+    width: 100%;
+    margin: 6% 5px 6% 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card{
+    width: 20rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-header{
+    background-color: rgb(255,255,255);
+}
+
+#cardDate{
+    margin:5px 10px;
+    padding-top: 5px;
+}
+
+#cardText{
+    margin: 0 10px; 
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+    font-family: Helvetica Neue;
+}
+
+#cardBody{
+    background-color: rgb(238,238,238);
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardIcons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.cardDisplay{
+    margin-bottom: 0px;
+    padding-right: 20px;
+}
+
+#tempMax{
+    color: rgb(2,119,189);
+}
+
+#tempMin{
+    color: rgb(198,40,40);
+}

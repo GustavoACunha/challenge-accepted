@@ -15,9 +15,12 @@ processo de recrutamento para vaga de Full-stack (CLT)?
 ### Sobre a Vaga
 
 - Empresa: Climatempo
-- Cargo: Desenvolvedor Full-stack;
+- Cargo: Desenvolvedor Full-stack (CLT);
+- VR e VT;
 - Home Office;
 - Flexibilidade no horário de trabalho para acompanhar eventos de tecnologia;
+- Local: Parque Tecnológico - São José dos Campos (http://www.pqtec.org.br/).
+
 
 ### Requisitos
 
